@@ -14,6 +14,7 @@
 		BEC033DB27DB014500991569 /* AnimatedTabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC033DA27DB014500991569 /* AnimatedTabTests.swift */; };
 		BEC033E527DB014500991569 /* AnimatedTabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC033E427DB014500991569 /* AnimatedTabUITests.swift */; };
 		BEC033E727DB014500991569 /* AnimatedTabUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC033E627DB014500991569 /* AnimatedTabUITestsLaunchTests.swift */; };
+		BEC033F427DB019000991569 /* TabbarShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC033F327DB019000991569 /* TabbarShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		BEC033E027DB014500991569 /* AnimatedTabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedTabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC033E427DB014500991569 /* AnimatedTabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedTabUITests.swift; sourceTree = "<group>"; };
 		BEC033E627DB014500991569 /* AnimatedTabUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedTabUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BEC033F327DB019000991569 /* TabbarShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				BEC033CB27DB014300991569 /* ContentView.swift */,
 				BEC033CD27DB014500991569 /* Assets.xcassets */,
 				BEC033CF27DB014500991569 /* Preview Content */,
+				BEC033F327DB019000991569 /* TabbarShape.swift */,
 			);
 			path = AnimatedTab;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEC033CC27DB014300991569 /* ContentView.swift in Sources */,
+				BEC033F427DB019000991569 /* TabbarShape.swift in Sources */,
 				BEC033CA27DB014300991569 /* AnimatedTabApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
